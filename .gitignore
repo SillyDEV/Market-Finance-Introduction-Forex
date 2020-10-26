@@ -1,0 +1,11 @@
+<<<<<<< Updated upstream
+
+indicators/__pycache__/
+
+__pycache__/
+=======
+
+backtesting/__pycache__/ParseFile.cpython-38.pyc
+
+indicators/__pycache__/
+>>>>>>> Stashed changes
