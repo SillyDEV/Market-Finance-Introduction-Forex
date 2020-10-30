@@ -24,7 +24,7 @@ def init():
         openConditionSelector()
         closePositionSelector()
     if config.customStrategy == "p":
-        print(bcolors.OKGREEN + "PREBUILD STRATEGY SELECTED not allready done!" + bcolors.ENDC)
+        print(bcolors.OKGREEN + "PREBUILD STRATEGY SELECTED!" + bcolors.ENDC)
 
 def modeSelector():
     # MODE + CURRENCY + PERIOD CONFIGURATION
@@ -64,6 +64,14 @@ def modeSelector():
         if config.period not in periods_list:
             print(bcolors.FAIL + "Invalid period selected '" + str(config.period) + "'." + bcolors.ENDC)
             config.period = None
+    while config.backPeriod is None:
+        config.backPeriod = input(bcolors.OKBLUE + "Enter your Period for contextualisation:" + bcolors.ENDC)
+        if config.backPeriod not in periods_list:
+            print(bcolors.FAIL + "Invalid back period selected '" + str(config.period) + "'." + bcolors.ENDC)
+            config.backPeriod = None
+        if config.backPeriod == config.period:
+            print(bcolors.FAIL + "Same period and back period selected '" + str(config.period) + "'." + bcolors.ENDC)
+            config.backPeriod = None
     validate_file = False
     if config.mode == "b":
         while not validate_file:

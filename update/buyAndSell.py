@@ -26,6 +26,7 @@ def enter(BuySell):
         print(bcolors.OKGREEN + str(config.MyPosition) + bcolors.ENDC)
 
 
+
 def exit(BuySell=None):
     if config.mode == 'live':
         openpositions = config.con.get_open_positions(kind='list')

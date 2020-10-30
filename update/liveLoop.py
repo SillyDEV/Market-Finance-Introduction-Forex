@@ -4,8 +4,18 @@ import config
 from other.colors import bcolors as bcolors
 from update.update import Update
 
+
+def getBackData():
+    new_pricedata = config.con.get_candles(config.currency, period=config.backPeriod, number=config.numberofcandles)
+    if new_pricedata.index.values[len(new_pricedata.index.values) - 1] != config.backdata.index.values[
+        len(config.backdata.index.values) - 1]:
+        config.backdata = new_pricedata
+
+
 def getLatestPriceData():
 
+    # Loading of backdata for money Management
+    getBackData()
     # Normal operation will update config.pricedata on first attempt
     new_pricedata = config.con.get_candles(config.currency, period=config.period, number=config.numberofcandles)
     if new_pricedata.index.values[len(new_pricedata.index.values) - 1] != config.pricedata.index.values[

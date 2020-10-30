@@ -13,6 +13,7 @@ def Prepare():
         config.mode = "live"
         print(bcolors.OKGREEN + "Requesting Initial Price Data..." + bcolors.ENDC)
         config.pricedata = config.con.get_candles(config.currency, period=config.period, number=config.numberofcandles)
+        config.backdata = config.con.get_candles(config.currency, period=config.backPeriod, number=config.numberofcandles)
         print(bcolors.OKGREEN + "Initial Price Data Received..." + bcolors.ENDC)
     elif config.mode == "B" or config.mode == "b":
         config.mode = "test"

@@ -2,7 +2,7 @@ import config
 from other.colors import bcolors as bcolors
 
 from update.update import Update
-
+from indicators.Heiken_hashi import Heiken_hashi
 
 def testLoop():
     start_df = 0
@@ -17,6 +17,8 @@ def testLoop():
         config.pricedata = config.pricedata.set_index('date')
         end_df += 1
         start_df += 1
+        Heiken_hashi()
+        # exit(0)
         Update()
     print(bcolors.HEADER + "DONE" + bcolors.ENDC)
     print(bcolors.OKBLUE + 'Pips profit : ' + str(int(round(config.PipsProfit, 4) * 100000)) + bcolors.ENDC)

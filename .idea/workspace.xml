@@ -142,8 +142,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.emaCrossOver" />
       <item itemvalue="Python.BBrsiEma" />
+      <item itemvalue="Python.emaCrossOver" />
       <item itemvalue="Python.smaCrossOver" />
       <item itemvalue="Python tests.pytest in bin" />
     </list>
@@ -177,7 +177,12 @@
       <workItem from="1603314206635" duration="590000" />
       <workItem from="1603362033295" duration="796000" />
       <workItem from="1603378062221" duration="154000" />
-      <workItem from="1603452646477" duration="6843000" />
+      <workItem from="1603452646477" duration="10335000" />
+      <workItem from="1603798040065" duration="18103000" />
+      <workItem from="1603838838318" duration="15138000" />
+      <workItem from="1603885234321" duration="19190000" />
+      <workItem from="1603984160284" duration="16129000" />
+      <workItem from="1604055612623" duration="11120000" />
     </task>
     <servers />
   </component>
@@ -190,10 +195,10 @@
     </state>
     <state x="414" y="174" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603104169708" />
     <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603115766719" />
-    <state x="715" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602602183123">
+    <state x="715" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604056578922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602602183123" />
+    <state x="715" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604056578922" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602077906227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,26 +207,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601967346005" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1603462039110">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1604065769262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603462039110" />
-    <state width="1877" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603283353360" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1603462039109">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604065769262" />
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604017131624" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1604065769262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603462039109" />
-    <state width="1877" height="368" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603283353360" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1603462039109">
+    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604065769262" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604017131624" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1604065769262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603462039109" />
-    <state width="1877" height="368" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603283353360" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1603462039110">
+    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604065769262" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604017131624" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1604065769262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603462039110" />
-    <state width="1877" height="368" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603283353360" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604065769262" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604017131624" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602164327371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,10 +243,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602164327371" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1602172541177">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1603986420396">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602172541177" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603986420396" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tradingbot$smaCrossOver.coverage" NAME="smaCrossOver Coverage Results" MODIFIED="1602077276081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -249,6 +255,6 @@
     <SUITE FILE_PATH="coverage/tradingbot$pytest_in_bin.coverage" NAME="pytest in bin Coverage Results" MODIFIED="1601967597148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tradingbot$ichimoku.coverage" NAME="emaCrossOver Coverage Results" MODIFIED="1602077958996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tradingbot$emaCrossOver.coverage" NAME="emaCrossOver Coverage Results" MODIFIED="1602081596749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tradingbot$BBrsiEma.coverage" NAME="BBrsiEma Coverage Results" MODIFIED="1603462039099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tradingbot$BBrsiEma.coverage" NAME="BBrsiEma Coverage Results" MODIFIED="1604065769254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
